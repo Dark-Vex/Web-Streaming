@@ -1,0 +1,278 @@
+* {
+	margin  		: 0;
+	padding 		: 0;
+}
+
+body {
+	background 		: #cccccc;
+}
+
+table {
+	margin 			: 0 auto;
+}
+
+td {
+	padding 		: 4px;
+	border 			: 1px solid #333;
+	text-align 		: center;
+	background 		: #ccc;
+}
+
+
+form {
+	text-align 		: left;
+}
+
+fieldset {
+	padding 		: 15px;
+}
+
+a img {
+	border 			: none;
+}
+
+.center {
+	text-align 		: center;
+}
+
+#mainWrapper {
+	width 			: 1028px;
+	margin 			: 0 auto;
+	background 		: #fafafa;
+}
+
+#header {
+	margin 			: 0 auto;
+	padding 		: 10px 0;
+	background 		: #333;
+}
+
+#header h1 {
+	padding 		: 10px;
+	color 			: #85b918;
+	font-size 		: 2em;
+}
+
+#navigation {
+	background 		: #000;
+	height 			: 30px;
+	line-height 	: 30px;
+	border 			: 1px solid #666;
+	border-left 	: none;
+	border-right 	: none;
+}
+
+.horizontalNav {
+	margin 			: 0 0 0 5px;
+	color 			: #85b918;
+}
+
+.horizontalNav li {
+	display 		: inline;
+}
+
+.horizontalNav li a {
+	padding 		: 2px 6px;
+	margin 			: 0 5px 0 0;
+	color 			: #85b918;
+	font-weight 	: bold;
+	border 			: 1px solid #666;
+	text-decoration : none;
+}
+
+.horizontalNav li a:hover {
+	background 		: #eee;
+	color 			: #85b918;
+	border 			: 1px solid #633;
+}
+
+#content h2.mainHeading {
+	color 			: #85b918;
+	margin 			: 10px 0;
+}
+
+#footer {
+	height 			: 25px;
+	margin 			: 10px 0 0;
+	background 		: #333;
+	color 			: #85b918;
+}
+
+#uploadForm {
+	margin 			: 0 auto;
+	padding 		: 20px;
+	width 			: 600px;
+	background 		: #ccc;
+	border 			: 1px solid #333;
+}
+
+.formRow {
+	margin 			: 5px 0;
+	clear 			: both;
+}
+
+.formRow label {
+	width 			: 150px;
+	float 			: left;
+	display 		: block;
+	font-weight 	: bold;
+}
+
+.error {
+	background 		: #a00;
+	padding 		: 5px;
+	margin 			: 5px 0;
+	color 			: #85b918;
+}
+
+form .submit{
+	padding 		: 5px;
+	background 		: #333;
+}
+
+#uploadResults {
+	margin 			: 10px auto 0;
+	background 		: #ccc;
+	border 			: 1px solid #333;
+}
+
+#uploadResults h3 {
+	margin-bottom 	: 10px;
+	padding 		: 5px;
+	background 		: #333;
+	color 			: #85b918;
+}
+
+.videoThumbnail {
+	text-align 		: center;
+	position 		: relative;
+}
+
+.processing {
+	position 		: absolute;
+	width 			: 100%;
+	height 			: 100%;
+	color 			: #85b918;
+	top 			: 0px;
+	left 			: 0px;
+
+}
+
+.processing img {
+	padding 		: 15% 0 0;
+}
+
+#ffmpegCommand {
+	text-align 		:left;
+}
+
+#videoGallery {
+	text-align 		: center;
+}
+
+#videoWindow {
+	width 			: 1024px;
+	margin 			: 10px auto 0;
+	border 			: 1px solid #333;
+}
+
+#videoWindow h2.videoTitle {
+	text-align 		: center;
+	padding 		: 2px;
+	background 		: #333;
+	color 			: #85b918;
+}
+
+#player {
+	display 		: block;
+	width 			: 720px;
+	height 			: 480px;
+	position 		: relative;
+}
+
+.videoLinks {
+	background 		: #333;
+	padding 		: 2px;
+	height 			: 25px;
+	line-height 	: 25px;
+	text-align 		: center;
+}
+
+.linkButton {
+	padding 		: 2px 4px 0;
+	margin 			: 0 4px;
+	border 			: 1px solid #eee;
+	background 		: #ccc;
+	text-decoration : none;
+	color 			: #000;
+}
+
+.linkButton:hover {
+	color 			: #000;
+	background 		: #85b918;
+	border 			: 1px solid #fee;
+}
+
+/* playlist style */
+#playlist {
+	width:280px;
+	height:430px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	border:1px solid #ccc;
+	padding:0px 0px 0px 0px;
+	background-color:#efefef;
+	margin-top:0px;
+	float:right;
+}
+#playlist a {
+	display:block;
+	width:250px;
+	height:90px;
+	padding:7px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	font:11px "bitstream vera sans", "lucida grande",verdana;
+	text-decoration:none;
+	margin-top:7px;
+	color:#666;
+}
+
+#playlist a:hover {
+	background-color:#ffc;		
+}
+
+#playlist a.progress {
+	background-color:#efefef;	
+}
+
+#playlist a.playing {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+
+#playlist a.paused {
+	border:1px solid #666;
+	background-color:#ffc;	
+}
+#playlist a img {
+	border:0;	
+	float:left;
+	margin-right:10px;
+}
+
+#playlist a strong {
+	color:blue;		
+	padding-bottom:5px;
+}
+
+#playlist a em {
+	border:0;	
+	float:left;
+	margin-right:10px;
+	background:url(/images/clock.gif) no-repeat 0 50%;
+	padding-left:20px;
+	color:#333;
+	font-style:normal;
+	margin-top:10px;
+}

@@ -1,0 +1,42 @@
+/*iframe*/
+#form1 {
+	background-color: #F4F4F4;
+	padding: 10px;
+	display: block;
+	font-size: 13px;
+	color: #000000;
+	width: 575px;
+	border: 3px solid #EBEBEB;
+	margin-right: 10px;
+}
+#upload_frame {
+	border:0px;
+	height:40px;
+	width:575px;
+	display:none;
+}
+
+#progress_container {
+	width: 572px; 
+	height: 30px; 
+	border: 1px solid #CCCCCC; 
+	background-color:#EBEBEB;
+	display: block; 
+	margin:5px 0px -15px 0px;
+}
+
+#progress_bar {
+	position: relative; 
+	height: 30px; 
+	background-color: #F3631C; 
+	width: 0%; 
+	z-index:10; 
+}
+
+#progress_completed {
+	font-size:16px; 
+	z-index:40; 
+	line-height:30px; 
+	padding-left:4px; 
+	color:#FFFFFF;
+}
